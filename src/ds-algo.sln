@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "trees", "trees", "{8E099267-80DE-40DE-AA5F-89F3C78926BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BST", "trees\BST\BST.csproj", "{B93FA18B-D895-4DE0-B362-B5560FFA1568}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B93FA18B-D895-4DE0-B362-B5560FFA1568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93FA18B-D895-4DE0-B362-B5560FFA1568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93FA18B-D895-4DE0-B362-B5560FFA1568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93FA18B-D895-4DE0-B362-B5560FFA1568}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B93FA18B-D895-4DE0-B362-B5560FFA1568} = {8E099267-80DE-40DE-AA5F-89F3C78926BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E288F76B-F376-4F89-8592-B69E746EFE90}
+	EndGlobalSection
+EndGlobal
