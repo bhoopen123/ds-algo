@@ -42,11 +42,36 @@ So, a tree data structures are non-linear data structures and provides efficient
 
 ### Some terminologies used in trees data structure
 
-                     1
-                 /      \
-                2        3
+                     1    -----------> root
+                 /      \  ----------> links/edges
+                2        3  ------------> node
               / | \     /  \
-             4  5  6   7    8
+             4  5  6   7    8 ----------->leaf
                / \    /
               9  10  11
 
+ * Nodes 2, 3 are **children** of node 1.
+ * Node 1 is the **parent** of nodes 2, 3.
+ * Children of same parent are called **siblings**, nodes 4, 5, 6 are siblings.
+ * Root is the only node without parent.
+ * Any node in the tree that doesn't has a child are called **leaf** node, node 9, 10, 11 are leaf nodes.
+ * Node 1 is **ancestor** of 2, 4, etc.
+ * Nodes 2, 4, 6, etc. are **descendent** of node 1.
+ * Common ancestor of 4 and 9 are 2 and 1.
+
+### Properties of tree
+
+ * Trees are recursive data structure, 
+
+                   ()
+                 / |  \
+               /   |   \
+             /    / \   /\
+            / \  /   \ /  \
+           /T1 \/ T2  \ T3 \
+  
+  where T1, T2, T3 are subtrees .
+
+* Trees with n nodes wull have 9th edges/links.
+
+             

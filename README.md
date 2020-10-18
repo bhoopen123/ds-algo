@@ -1,4 +1,4 @@
 # ds-algo
 Data structures and algorithms related concepts, problem and solutions.
 
-## Trees
+## [Trees](/src/trees/README.md)
