@@ -112,6 +112,14 @@ Difference between height of left and right subtree for every node is not more t
 
 ![Non Balanced binary tree with height at each node](/src/trees/images/non-balanced-binary-tree.jpeg)
 
+### Height and Depth in a Binary Tree
+ * The depth of a node is the number of edges from the root to the node.
+ * The height of a node is the number of edges from the node to the deepest leaf.
+ * The height of a tree is a height of the root.
+ * The height of a tree is the maximum depth of any node in the tree (aka `max depth`).
+
+![Height and Depth in a Binary Tree](/src/trees/images/height-and-depth-in-a-binary-tree.jpeg)
+
 ## Implementation of binary tree
 ### 1. using Doubly linked list
 Dynamically created nodes linked to each other using pointers or references.
