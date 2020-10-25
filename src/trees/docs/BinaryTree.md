@@ -137,3 +137,52 @@ for node at index `i`,
     right child index = 2*i + 2
 
 Arrays are used to implement `Heaps`.
+
+## Binary Tree Traversal
+Tree traversal is a process of visiting each node in the tree exactly once in the some order, where visiting means reading or processing data in a node.
+
+                      ------------------
+                      | Tree Traversal |
+                      ------------------
+            _________________|_________________________
+           |                                           |
+     ---------------                             ---------------
+    | Breadth First |                            | Depth First |                 
+    ----------------                             ---------------
+    (aka Level-First)                                  |
+                                                       |-------- Pre-Order:- node -> left -> right
+                                                       |
+                                                       |-------- In-Order:- left -> node -> right
+                                                       |
+                                                       |-------- Post-Order:- left -> right -> node
+
+### Example
+
+                                  (F)             -----------> L1
+                                /     \
+                              /         \
+                            (D)         (J)       -----------> L2
+                           /   \       /   \
+                         (B)    (E)  (G)   (K)    -----------> L3
+                        /   \           \
+                      (A)   (C)         (I)       -----------> L4
+                                       /
+                                      (H)         -----------> L5
+
+Level Order Traversal:
+
+    F -> D -> J -> B -> E -> G -> K -> A -> c -> I -> H
+
+Pre-Order Traversal [D(Data)    L(Left)   R(Right)]
+
+    F -> D -> B -> A -> C -> E -> J -> G -> I -> H -> K
+
+In-Order Traversal [L(Left)     D(Data)    R(Right)]
+
+    A -> B -> C -> D -> E -> F -> G -> H -> I -> J -> K
+
+    In-order traversal of a Binary Search Tree will give an sorted list.
+
+Post-Order Traversal [L(Left)   R(Right)    D(Data)]
+
+    A -> C -> B -> E -> D -> H -> I -> G -> K -> J -> F
