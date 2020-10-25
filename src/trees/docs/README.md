@@ -91,7 +91,7 @@ Height of `x` = number of edges in longest path from `x` to a leaf. For example,
 ### Binary Tree
 A tree in which each node can have at most 2 children.
 
-![Binary Tree](/src/trees/images/binaryTree1.png)
+![Binary Tree](/src/trees/images/binary-tree.png)
 
 ### Applications of trees data structure
 1. Storing natually hierarchical data , e.g.   `file system`.
