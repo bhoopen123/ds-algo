@@ -99,3 +99,6 @@ A tree in which each node can have at most 2 children.
 3. Trie - which is a dictionary used for dynamic spell checking.
 4. Network Routing Algorithm
 
+### Next
+1. [Binary Tree](/src/trees/docs/BinaryTree.md)
+2. [Binary Search Tree](/src/trees/docs/BinarySearchTree.md)
