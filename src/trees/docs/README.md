@@ -50,6 +50,8 @@ So, a tree data structures are non-linear data structures and provides efficient
                / \    /
               9  10  11
 
+              figure-1 
+
  * Nodes 2, 3 are **children** of node 1.
  * Node 1 is the **parent** of nodes 2, 3.
  * Children of same parent are called **siblings**, nodes 4, 5, 6 are siblings.
@@ -63,15 +65,37 @@ So, a tree data structures are non-linear data structures and provides efficient
 
  * Trees are recursive data structure, 
 
-                   ()
-                 / |  \
-               /   |   \
-             /    / \   /\
-            / \  /   \ /  \
-           /T1 \/ T2  \ T3 \
+                  ( )
+                /  |  \
+              /    |    \
+            /     / \    /\
+          / \    /   \  /  \
+         /T1 \  / T2  \/ T3 \
   
   where T1, T2, T3 are subtrees .
 
-* Trees with n nodes wull have 9th edges/links.
+* Trees with `n` nodes will have `n-1` edges/links.
 
-             
+### Depth of a node `x`
+Depth of `x` = length of path from root to `x`  OR number of edges in the path from root to `x`. For example, in `figure-1`,
+* Depth of node 2, 3 is 1
+* Depth of node 4, 5, 6, 7, 8, is 2
+* Depth of 9, 10, 11 is 3
+
+### Height of a node `x`
+Height of `x` = number of edges in longest path from `x` to a leaf. For example, in `figure-1`,
+* Height of node 3 is 2
+* Height of leaf nodes will be 0
+* Height of the root node is 3
+
+### Binary Tree
+A tree in which each node can have at most 2 children.
+
+![Binary Tree](/src/trees/images/binaryTree1.png)
+
+### Applications of trees data structure
+1. Storing natually hierarchical data , e.g.   `file system`.
+2. Organize data for quick search, insertion and deletion, e.g. Binary Search Trees.
+3. Trie - which is a dictionary used for dynamic spell checking.
+4. Network Routing Algorithm
+
